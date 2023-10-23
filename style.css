@@ -1,0 +1,130 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&family=Volkhov:wght@700&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+  
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Volkhov:wght@700&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+html, body, #root{
+    padding: 0;
+    margin: 0;
+}
+
+
+section {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center ;
+    flex-direction: row;
+    list-style: none;
+    text-align: center;
+    gap: 20px;
+    font-family: open Sans;
+    color: rgba(33, 40, 50, 1);
+    padding: 0 100px 0 100px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 0 100px 0 100px;
+}
+
+.logo img {
+   height: 50px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100vw;
+}
+
+.text {
+    position: relative;
+    left: -200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text h3 {
+    color: rgba(223, 105, 81, 1);
+    font-family: poppins;
+    font-size: 20px;
+
+}
+
+.text h1 {
+    color: rgba(24, 30, 75, 1);
+    font-family: volkhov;
+    font-size: 50px;
+    line-height: 1;
+}
+
+.text p {
+    font-family: poppins;
+    color: rgba(94, 98, 130, 1);
+    font-size: 16px;
+}
+
+.wrap {
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+}
+
+.wrap button {
+    background-color: rgba(241, 165, 1, 1);
+    border: transparent;
+    border-radius: 10px;
+    width: 170px;
+    height: 60px;
+    color: white;
+}
+
+.play {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    width: 300px;
+}
+
+.play * {
+    cursor: pointer;
+}
+
+
+.play button {
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    color: black;
+}
+
+#bg {
+    height: 800px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+
+#effect {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 400px;
+    height: 100vh;
+}
+
